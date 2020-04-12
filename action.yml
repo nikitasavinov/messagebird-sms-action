@@ -1,6 +1,8 @@
 name: 'MessageBird SMS'
 description: 'Send an SMS from GitHub Actions using MessageBird SDK'
-icon: message-square
+branding:
+  icon: 'message-square'  
+  color: 'green'
 inputs:
   originator:
     description: 'The sender of the message (number or 11 character string)'
