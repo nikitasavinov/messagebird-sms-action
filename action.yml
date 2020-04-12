@@ -1,0 +1,18 @@
+name: 'MessageBird SMS'
+description: 'Send an SMS from GitHub Actions using MessageBird SDK'
+inputs:
+  originator:
+    description: 'The sender of the message (number or 11 character string)'
+    required: true
+  recipients:
+    description: 'An array of recipients (comma-separated)'
+    required: true
+  body:
+    description: 'The body of the SMS message'
+    required: true
+outputs:
+  id:
+    description: 'Unique id of the message'
+runs:
+  using: 'node12'
+  main: 'dist/main.js'

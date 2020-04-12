@@ -1,0 +1,27 @@
+{
+  "name": "messagebird-actions",
+  "version": "0.1.0",
+  "description": "Send an SMS from GitHub Actions using MessageBird",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitasavinov/messagebird-actions.git"
+  },
+  "keywords": ["github", "actions", "sms"],
+  "author": "Nikita Savinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikitasavinov/messagebird-actions/issues"
+  },
+  "homepage": "https://github.com/nikitasavinov/messagebird-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "messagebird": "^3.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
